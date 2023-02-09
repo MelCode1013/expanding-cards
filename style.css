@@ -36,16 +36,19 @@ body {
 }
 
 .panel h3 {
-    font-size: 24px;
+    font-size: 20px;
     position: absolute;
     bottom: 20px;
     left: 20px;
     margin: 0;
     opacity: 0;
+    text-shadow: 1px 2px 2px black;
+    transition: 0.7s ease-in;
 }
 
 .panel.active {
     flex: 5;
+    transition: ease-in 0.4s;
 }
 
 .panel.active h3{
